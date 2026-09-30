@@ -21,13 +21,14 @@ Mesh downloads the compatible GGUF and reuses its cache. Laya defaults to CPU.
 Wait until the model is ready. In another terminal:
 
 ```sh
-git clone --branch feat/decisions https://github.com/michaelneale/mesh-decisions-playground.git
+git clone https://github.com/michaelneale/mesh-decisions-playground.git
 cd mesh-decisions-playground
 npm start
 ```
 
-Open **http://127.0.0.1:8787**. No dependency install or build is required to run.
-The implementation is currently on `feat/decisions`, pending review.
+Keep `npm start` running, then open **http://127.0.0.1:8787** in a browser
+on the same computer. This is a local web app, not a hosted website.
+With Node.js installed, no `npm install` or build step is needed to run the playground.
 
 To use another Mesh endpoint or playground port:
 
